@@ -53,7 +53,7 @@ async def covid19(ctx):
             embed.add_field(name="**__התחסנו אתמול:__**", value=list_of_info[index][3], inline=False)
             embed.add_field(name="**__התחסנו סך הכל בישראל:__**", value=list_of_info[index][4], inline=False)
             embed.set_thumbnail(url='https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/SARS-CoV-2_without_background.png/1200px-SARS-CoV-2_without_background.png')
-            embed.set_footer(text=f"Made By AfeK#9999, Based On Mako. Updated to {datetime.datetime.now().strftime('%d %B %Y, %H:%M')}", icon_url="https://i.imgur.com/cafvEAY.gif")
+            embed.set_footer(text=f"Made By AfeK#3702, Based On Mako. Updated to {datetime.datetime.now().strftime('%d %B %Y, %H:%M')}", icon_url="https://i.imgur.com/cafvEAY.gif")
             embed.set_author(name="Covid19 Information!", icon_url='https://i2.wp.com/freepngimages.com/wp-content/uploads/2016/11/hospital-bed-transparent-background.png?w=614')
     await ctx.send(embed=embed)
 
